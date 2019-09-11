@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<userRegistration xsi:schemaLocation="http://zakupki.gov.ru/223fz/agencyRegistration/1 userRegistration.xsd"
+                  xmlns="http://zakupki.gov.ru/223fz/agencyRegistration/1"
+                  xmlns:t="http://zakupki.gov.ru/223fz/types/1"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<user>
+		<t:snils>string</t:snils>
+		<t:login>string</t:login>
+		<t:firstName>string</t:firstName>
+		<t:middleName>string</t:middleName>
+		<t:lastName>string</t:lastName>
+		<t:phone>string</t:phone>
+		<t:email>string@mail.com</t:email>
+		<t:organization>
+			<t:mainInfo>
+				<t:fullName>string</t:fullName>
+				<t:shortName>string</t:shortName>
+				<t:iko>12345678901234567890</t:iko>
+				<t:inn>1234567890</t:inn>
+				<t:kpp>123456789</t:kpp>
+				<t:ogrn>1234567890123</t:ogrn>
+				<t:legalAddress>string</t:legalAddress>
+				<t:postalAddress>string</t:postalAddress>
+				<t:phone>string</t:phone>
+				<t:fax>string</t:fax>
+				<t:email>string@mail.com</t:email>
+				<t:okato>12345678901</t:okato>
+				<t:okopf>12</t:okopf>
+				<t:okopfName>string</t:okopfName>
+				<t:okpo>1234567890</t:okpo>
+				<t:customerRegistrationDate>2008-09-29T08:49:45</t:customerRegistrationDate>
+				<t:timeZone>
+					<t:offset>3</t:offset>
+					<t:name>string</t:name>
+				</t:timeZone>
+				<t:region>string</t:region>
+			</t:mainInfo>
+		</t:organization>
+	</user>
+</userRegistration>
